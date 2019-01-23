@@ -7,7 +7,7 @@ Features:
 - Small (for the majority of users who don't use IE)
 - Exhaustive, as it uses `all: unset`
 - No formatting at all, except on input elements
-  for accessibility reasons
+  for usability's sake, and accessibility
 - Gives you the foundation boilerplate you need
   100% of the time, and has no formatting
 - Gives you messages if you use an anti-pattern
