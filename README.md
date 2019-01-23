@@ -16,5 +16,5 @@ Features:
   IE10/11, as they don't support `all: unset`
 - Tested using https://github.com/cbracco/html5-test-page
 
-It is 231 bytes larger than the most popular reset file;
-but achieves much more 🌈
+Only 20% larger than the most popular reset file;
+but achieves so much more 🌈
