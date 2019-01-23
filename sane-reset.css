@@ -40,7 +40,7 @@ table *         { display: none }
 slot { display: contents }
 
 /** useful 99% of the time, and overrideable */
-* {
+*, *::before, *::after {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -52,7 +52,9 @@ slot { display: contents }
 
 html {
   font-size: 16px;
+  font-weight: 400;
   line-height: 1;
+  overflow-y: scroll;
 }
 
 hr {
@@ -61,6 +63,10 @@ hr {
   overflow: visible;
   border-style: solid;
   border-width: 1px 0 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
 }
 
 /** Normalize input elements manually */

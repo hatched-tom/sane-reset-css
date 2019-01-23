@@ -17,6 +17,3 @@ Features:
 - Conditionally imports a full reset file for
   IE10/11, as they don't support `all: unset`
 - Tested using https://github.com/cbracco/html5-test-page
-
-Only 20% larger than the most popular reset file;
-but achieves so much more 🌈
